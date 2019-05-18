@@ -43,3 +43,9 @@ if (process.env.NODE_ENV === 'dev'){
 }
 
 process.env.URLDB = urlDB;
+
+// ===================
+// Google cient Id
+//====================
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '543582637838-vih0r951i3io534e6phdstqdhpv8cgi2.apps.googleusercontent.com';
